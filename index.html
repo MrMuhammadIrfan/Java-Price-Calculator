@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/css/bootstrap.css">
+</head>
+<body>
+    <div>
+ <!-- <button class="btn btn-primary">Button</button> -->
+    </div>
+    </body><script>
+     
+     function promptForNumber(message) {
+    var input;
+    do {
+        input = prompt(message);
+        // Check if the input is not null and if it's a valid number
+        if (input === null || isNaN(input)) {
+            alert("Please enter a valid number.");
+        }
+    } while (input === null || isNaN(input));
+    return parseFloat(input);
+}
+
+// Example usage:
+var weight = promptForNumber("Enter the weight of chicken (in grams):");
+
+document.write("Total Price of Chicken is:", weight*500);
+
+
+    </script>
+   
+</body>
+</html>
+    </script>
+    
+</body>
+</html>
